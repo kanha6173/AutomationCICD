@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+	<listeners>
+		<listener class-name="KanhaFrameworkDesign.TestComponent.Listeners" />
+	</listeners>
+	<test thread-count="5" name="Submit Order Test ">
+		<classes>
+			<class name="KanhaFrameworkDesign.tests.SampleTest" />
+		</classes>
+	</test> <!--
+	Test -->
+	<test thread-count="5" name="Error Validation Test ">
+		<classes>
+			<class name="KanhaFrameworkDesign.tests.ErrorValidationTest" />
+		</classes>
+	</test> <!--
+	Test -->
+	<test thread-count="5" name="Base Test ">
+		<classes>
+			<class name="KanhaFrameworkDesign.TestComponent.BaseTest" />
+		</classes>
+	</test> <!--
+	Test -->
+
+</suite> <!--
+Suite -->
+
+
+     
+      

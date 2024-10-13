@@ -1,0 +1,8 @@
+KanhaFramework\pageObjects\CheckOutPage.class
+KanhaFramework\pageObjects\OrderPage.class
+KanhaFramework\AbstractComponents\AbstractComponent.class
+KanhaFramework\resources\ExtentReporterNG.class
+KanhaFramework\pageObjects\ProductCatalogue.class
+KanhaFramework\pageObjects\LandingPage.class
+KanhaFramework\pageObjects\CartPage.class
+KanhaFramework\pageObjects\ConfirmationPage.class
